@@ -8,7 +8,11 @@
       {
         "src": "server.php",
         "use": "@vercel/php"
-      }
+      },
+    {
+      "src": "Dockerfile",
+      "use": "@vercel/docker"
+    }
     ],
     "routes": [
       {
